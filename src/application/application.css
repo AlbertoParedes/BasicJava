@@ -1,0 +1,22 @@
+.mybutton {
+	-fx-background-color: white;
+	/*-fx-border-color: orange;*/
+	-fx-text-fill: white;
+	-fx-background-size: 173px;
+	-fx-background-image: url("../view/img/balon.png");
+	-fx-background-repeat: no-repeat;
+	 -fx-background-position: center;
+	 -fx-padding:20;
+	 
+	 -fx-background-radius: 100px 100px 100px 100px;
+}
+.mybutton:hover {
+	-fx-background-color: lightgray;
+	/*-fx-border-color: brown;*/
+}
+
+.button:pressed {
+  -fx-background-color: gray ;
+  /*-fx-text-fill: white;*/
+  }
+  
