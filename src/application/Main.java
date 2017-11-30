@@ -14,7 +14,11 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 
-
+/**
+ * En este fichero esta el main y la clase que controla la vista fxml
+ * @author albertoparedes
+ *
+ */
 public class Main extends Application {
 
 	private Pane mypane;
@@ -59,6 +63,10 @@ public class Main extends Application {
 	    		}
 	    		
 	    }
+		
+		/**
+		 * Hacemos visible el boton "volver" tras pulsarlo varias veces
+		 */
 	    
 	    @FXML
 	    void reiniciando(ActionEvent event) {
