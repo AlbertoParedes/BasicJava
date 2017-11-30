@@ -45,7 +45,7 @@ public class Main extends Application {
 		}*/
 		int x = 5;
 	    public SetBlur(Stage stage) {
-			this.stage = stage;
+			this.stage = stage;  
 		}
 
 		@FXML
